@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Cyberscape';
+  src: url('/fonts/pragmatica-book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cyberscape';
+  src: url('/fonts/pragmatica-bold.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root, html, body {
+  font-family: 'Cyberscape', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 0.9;
+}
+
+@media(max-width: 576px) {
+  h1, .h1 {
+    font-size: 2.5rem;
+  }
+  h2, .h2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media(min-width: 576px) {
+  h1, .h1 {
+    font-size: 3.25rem;
+  }
+  h2, .h2 {
+    font-size: 2.25rem;
+  }
+}
+
+@media(min-width: 768px) {
+  h1, .h1 {
+    font-size: 4rem;
+  }
+  h2, .h2 {
+    font-size: 3rem;
+  }
+}
+
+@media(min-width: 992px) {
+  h1, .h1 {
+    font-size: 4.5rem;
+  }
+  h2, .h2 {
+    font-size: 3.25rem;
+  }
+}
+
+@media(min-width: 1200px) {
+  h1, .h1 {
+    font-size: 5.25rem;
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "fedemoji-search",
+  "version": "1.4.3",
+  "description": "Search those emojos!",
+  "author": "Cyberscape",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0-beta",
+    "cross-env": "^5.2.0",
+    "fuse.js": "^3.2.1",
+    "nuxt": "^2.0.0",
+    "timsort": "^0.3.0",
+    "vue-virtual-scroller": "^0.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
